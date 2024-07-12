@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(100, 1, 1);
+    align-items: baseline;
+}
+.logo{
+    color: gray;
+    font-size: 30px;
+    padding: 10px 13px;
+    
+}
+nav li {
+    display: inline;
+    margin: 20px;
+    
+}
+nav ul{
+    font-size: 19px;
+    text-align: center;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+}
+nav a:hover{
+    background-color: black;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+.search{
+    text-align: right;
+    
+    
+}
+.search form {
+    font-size: large;
+    border-radius: none;
+    
+}
+.submenu li{
+    background: white;
+    color: aqua;
+}
+.submenu{
+    display: none;
+}
+nav ul li:hover .submenu{
+    display: block;
+}

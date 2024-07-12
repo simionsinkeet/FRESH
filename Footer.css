@@ -1,0 +1,26 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(8, 8, 67);
+    padding: 70px 0 30px;
+    border-top-left-radius: 88px;
+    font-size: 15px;
+    color: white;
+}
+.row{
+    margin:auto ;
+    display: flex;
+    width: 85%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    justify-content: space-between;
+}
+.col1{
+    justify-content: space-between;
+  
+}

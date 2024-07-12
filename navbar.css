@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:rgba(139, 2, 2, 0.877);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+nav ul{
+padding-left: 220px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: large;
+}
+.form button{
+    background-color: orangered;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;   
+}
+
+nav ul li a:hover{
+    background-color: black;
+    transition-duration: 0.6s;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+.form input{
+    border: none;
+    padding: 5px 0px;
+    border-radius: 4px;
+    color: gray;
+    border-bottom: none;
+}
+ button:hover{
+    background-color: aqua;
+    transition: 0.7s;
+    cursor: alias;
+}
+
+.submenu ul{
+    background: rgb(0, 247, 255);
+    padding: 2px 12px;
+    
+}
+.submenu a{
+    color: aliceblue;
+    font-size: 16px;
+}
+.submenu ul{
+    display: none;
+}
+nav ul li:hover .submenu{
+    display: inline;
+}
+
+
+
